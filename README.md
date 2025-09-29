@@ -42,6 +42,42 @@ In C++, a Queue is a linear data structure that follows the FIFO (First-In-First
 
 * Forms the basis for advanced structures like Priority Queues and Deques.
 
+
+# Add, Delete the members in the queue. Check the queue is overflow or empty:
+
+This program demonstrates how to implement a queue data structure using an array. It supports standard queue operations like enqueue, dequeue, and display. Overflow and underflow conditions are handled properly.
+
+ALGORITHM:
+
+1> Start
+
+2> Define Queue class with:
+
+* Private members: arr[SIZE], front, rear
+
+* Public methods:
+
+enqueue(value) : Add element at rear, check for overflow
+
+dequeue() : Remove element from front, check for underflow
+
+display() : Display all elements from front to rear
+
+3> In main function
+
+* Create Queue object q
+
+* Enqueue elements 10, 20, 30
+
+* Display queue
+
+* Dequeue element and display queue
+
+* Enqueue more elements and handle overflow
+
+* Display queue after each operation
+
+4> End
   
 
 # Conclusion:
